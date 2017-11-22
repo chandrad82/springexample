@@ -13,6 +13,9 @@ public class HelloWorld
 	}
 	
 	public void printHello() {
+		if(name !=null)
 		System.out.println("Hello ! " + name);
+	else
+		System.out.println("Hello Dear!!!");
 	}
 }
