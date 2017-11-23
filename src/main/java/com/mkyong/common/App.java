@@ -15,7 +15,11 @@ public class App
     	 
         HelloWorld obj = (HelloWorld) context.getBean("helloBean");
         obj.printHello();
-        
+       
         System.out.println("Hello ! changed from local repository");
+
+         System.out.println("Hello ! changed from remote repository");
+        
+
     }
 }
